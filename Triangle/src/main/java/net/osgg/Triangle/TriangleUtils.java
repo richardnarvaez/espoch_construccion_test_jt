@@ -23,7 +23,7 @@ public class TriangleUtils {
     		return "los valores ingresados no corresponden con los de un triángulo"; 
     	else if(Integer.valueOf(a)==Integer.valueOf(b) && Integer.valueOf(b)==Integer.valueOf(c))
     		type = "Equilatero";
-    	else if (Integer.valueOf(a)==Integer.valueOf(b)  || Integer.valueOf(a)==Integer.valueOf(c)  || 
+    	else if (Integer.valueOf(a)==Integer.valueOf(b)  || Integer.valueOf(a)==Integer.valueOf(c) || 
     			 Integer.valueOf(c)==Integer.valueOf(b) )
     		type = "Isósceles";
     	else

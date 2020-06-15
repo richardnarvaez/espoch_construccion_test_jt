@@ -8,7 +8,7 @@
 <span class="fc" id="L8">            Integer.parseInt(s); </span>
 <span class="fc" id="L9">        } catch(NumberFormatException e) { </span>
 <span class="fc" id="L10">            return false; </span>
-        }
+<span class="fc" id="L11">        }</span>
 <span class="fc" id="L12">        return true;</span>
     }
      
@@ -18,12 +18,12 @@
 <span class="fc bfc" id="L18" title="All 6 branches covered.">    	if ( !isInteger(a) || !isInteger(b) || !isInteger(c) )</span>
 <span class="fc" id="L19">    	   return &quot;los tres valores a ingresar deben ser números enteros&quot;;</span>
 <span class="fc bfc" id="L20" title="All 2 branches covered.">    	else if ( (Integer.valueOf(a) + Integer.valueOf(b)) &lt;= Integer.valueOf(c) || </span>
-<span class="pc bpc" id="L21" title="1 of 2 branches missed.">    			  (Integer.valueOf(a) + Integer.valueOf(c)) &lt;= Integer.valueOf(b) || </span>
-<span class="pc bpc" id="L22" title="1 of 2 branches missed.">    			  (Integer.valueOf(b) + Integer.valueOf(c)) &lt;= Integer.valueOf(a) ) </span>
+<span class="fc bfc" id="L21" title="All 2 branches covered.">    			  (Integer.valueOf(a) + Integer.valueOf(c)) &lt;= Integer.valueOf(b) || </span>
+<span class="fc bfc" id="L22" title="All 2 branches covered.">    			  (Integer.valueOf(b) + Integer.valueOf(c)) &lt;= Integer.valueOf(a) ) </span>
 <span class="fc" id="L23">    		return &quot;los valores ingresados no corresponden con los de un triángulo&quot;; </span>
 <span class="fc bfc" id="L24" title="All 4 branches covered.">    	else if(Integer.valueOf(a)==Integer.valueOf(b) &amp;&amp; Integer.valueOf(b)==Integer.valueOf(c))</span>
 <span class="fc" id="L25">    		type = &quot;Equilatero&quot;;</span>
-<span class="fc bfc" id="L26" title="All 4 branches covered.">    	else if (Integer.valueOf(a)==Integer.valueOf(b)  || Integer.valueOf(a)==Integer.valueOf(c)  || </span>
+<span class="fc bfc" id="L26" title="All 4 branches covered.">    	else if (Integer.valueOf(a)==Integer.valueOf(b)  || Integer.valueOf(a)==Integer.valueOf(c) || </span>
 <span class="fc bfc" id="L27" title="All 2 branches covered.">    			 Integer.valueOf(c)==Integer.valueOf(b) )</span>
 <span class="fc" id="L28">    		type = &quot;Isósceles&quot;;</span>
     	else
