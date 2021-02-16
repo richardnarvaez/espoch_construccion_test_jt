@@ -14,5 +14,5 @@ Sube el proyecto a la plataforma virtual .
 
 | TEST COVERAGE|
 | :-: |
-| ![Test](screenshots/screen_test.jpg "Test") |
+| ![Test](screenshots/screen_test.png "Test") |
 
