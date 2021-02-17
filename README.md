@@ -16,3 +16,6 @@ Sube el proyecto a la plataforma virtual .
 | :-: |
 | ![Test](screenshots/screen_test.png "Test") |
 
+| CODE|
+| :-: |
+| ![Code](screenshots/screen_code.png "Test") |
